@@ -1,4 +1,4 @@
-# century-link
+# demo project for CenturyLink
 Builds and renders a node hierarchy from a structured String. Order of the nodes within the String won't affect the output.
 
 Implemented as node objects because I picked the print library first. A different solution could be a lot more efficient in terms of both space and time, by storing the parent-child
