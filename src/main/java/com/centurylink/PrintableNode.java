@@ -5,6 +5,8 @@ import org.barfuin.texttree.api.Node;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
+
+//TODO What if the parent or even root hasn't been parsed yet?
 public class PrintableNode implements Comparable<PrintableNode>, Node {
 
     private final long id;
